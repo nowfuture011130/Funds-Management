@@ -1,0 +1,121 @@
+.expense-tracker {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #023047;
+}
+
+.expense-tracker h1 {
+  font-size: 40px;
+}
+.expense-tracker button {
+  margin-left: 10px;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 50px;
+}
+.profile-photo {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.sign-out-button {
+  border: none;
+  margin-top: 50px;
+  width: 150px;
+  background: #3498db;
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.sign-out-button:hover {
+  background: #3cb0fd;
+
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.transactions {
+  padding-left: 10px;
+  width: 55%;
+  height: 410px;
+  overflow: auto;
+  border: 3px solid #023047;
+}
+.add-transaction > * {
+  margin-left: 5px;
+  margin-right: 5px;
+  display: inline-block;
+}
+.add-transaction {
+  display: flex;
+  align-items: center;
+}
+
+.inputField {
+  width: 20%;
+  height: 32px;
+  border-radius: 4px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: 0.3s all;
+  font-size: 16px;
+  font-weight: bold;
+}
+.inputField:hover {
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+}
+.submitBtn {
+  background-color: #4caf50; /* Green */
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+  color: white;
+}
+
+.sidebar {
+  width: 200px; /* 侧边栏宽度 */
+  background-color: #f4f4f4; /* 侧边栏背景颜色 */
+  padding: 20px;
+}
+
+.sidebar button {
+  display: block;
+  width: 100%; /* 按钮宽度与侧边栏一致 */
+  padding: 10px 0; /* 上下内边距 */
+  margin-bottom: 10px; /* 按钮之间的间距 */
+  text-align: center; /* 文本居中 */
+  background-color: #ddd; /* 按钮背景颜色 */
+  border: none;
+  border-radius: 5px; /* 圆角 */
+  cursor: pointer;
+  transition: background-color 0.3s; /* 背景颜色过渡效果 */
+}
+
+.sidebar button:hover {
+  background-color: #ccc; /* 鼠标悬停时的背景颜色 */
+}
+.buttomContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
